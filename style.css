@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.change {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 100px;
+    color: black;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 30px;
+    border: none;
+    box-shadow: 0 15px 15px black;
+    outline: none;
+}
+.change:active {
+    box-shadow: none;
+}
